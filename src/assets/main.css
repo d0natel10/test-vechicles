@@ -1,0 +1,202 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header{
+    background-color: rgba(40, 40, 40, 1);
+    width: 256px;
+    min-height: 100vh;
+  }
+  .header-h{
+    text-align: center;
+    font-family: sans-serif;
+    color: rgba(255, 255, 255, 1);
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 700;
+    padding-top: 30px;
+  }
+  .menu-icon{
+    width: 24px;
+    height: 24px;
+  }
+  .menu-title{
+      color: rgba(255, 255, 255, 0.45);
+      font-size: 16px;
+      line-height: 20px;
+  }
+  
+  .menuTitle {
+    color: white;
+  }
+
+  .Vector-img {
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    width: 341px; 
+    height: auto;
+  }
+  
+  .borderClick {
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 256px;
+    height: 48px; 
+    align-items: center;
+    padding-left: 30px; 
+    display: flex;
+    justify-content: start; 
+    transition: background-color 0.3s ease;
+    border-left-color: rgba(217, 14, 50, 1);
+    border-left-width: 2px;
+  }
+  
+
+  .pages-head{
+    background-color: rgba(243, 246, 248, 1);
+    padding: 4px 14px;
+    color: rgba(41, 49, 72, 0.8);
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 700;
+    border-style: none;
+  }
+  
+  .img-add-button{
+    width: 42px;
+    height: 42px;
+  }
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(180deg); }
+  }
+  
+  .img-add-button {
+    transition: transform 0.5s ease; 
+  }
+  
+  .img-add-button:hover {
+    animation: spin 2s 1; 
+  }
+  
+  .userName{
+    color: rgba(41, 49, 72, 1);
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 500;
+  }
+  
+  .search-input{
+    width: 354px;
+    height: 42px;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding: 15px;
+  }
+  
+  .img-search{
+    margin-left: 340px;
+    width: 24px;
+    height: 24px;
+  }
+
+  .select {
+    width: 85px;
+    height: 42px;
+  }
+  
+  .button-add-vech{
+    color: white;
+    background-color: rgba(217, 14, 50, 1);
+    width: 180px;
+    height: 42px;
+    border-radius: 10px;
+    font-size: 12px;
+    line-height: 20px; 
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-left: 288px;
+  }
+
+  .button-add-vech-de-pt {
+    color: white;
+    background-color: rgba(217, 14, 50, 1);
+    width: 230px;
+    height: 42px;
+    border-radius: 10px;
+    font-size: 12px;
+    line-height: 20px; 
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-left: 195px;
+  }
+
+  .cards{
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 354px;
+    height: 335px;
+    background-color: rgba(243, 246, 248, 1);
+    border-radius: 10px;
+  }
+  
+  .Card-title{
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: rgba(41, 49, 72, 1);
+  }
+  
+  .Card-VIN{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: rgba(41, 49, 72, 0.6);
+    line-height: 20px;
+  }
+  
+  .card-drob{
+    width: 66px;
+    height: 30px;
+    padding: 4px 14px;
+    background-color: rgba(237, 237, 237, 1);
+    border-radius: 10px;
+    color: rgba(41, 49, 72, 0.8);
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: center;
+    font-family: sans-serif;
+  }
+  
+  .card-days{
+  color: rgba(41, 49, 72, 0.6);
+  font-size: 15px;
+  line-height: 16px;
+  font-weight: 500;
+  }
+  
+  .footer-showing{
+    font-size: 16px;
+    line-height: 22px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: rgba(41, 49, 72, 0.8);
+  }
+  
+  .footer-pages{
+    color: rgba(41, 49, 72, 0.45);
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 400;
+    line-height: 22px;
+  }
+  
+  .footer-text-page{
+    color: rgba(41, 49, 72, 0.8);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: sans-serif;
+  }

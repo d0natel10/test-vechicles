@@ -1,0 +1,18 @@
+{
+    "title": "Demo Testen",
+    "menu": {
+        "profile": "Profil",
+        "vechicles": "Fahrzeuge",
+        "settings": "Einstellung"
+    },
+    "PageTitle": "Fahrzeuge",
+    "placeholder": "Fahrgestellnummer suchen",
+    "SelectPP": "Fahrzeuge pro Seite auswählen: ",
+    "buttonAdd": "FAHRZEUGE HINZUFÜGEN",
+    "CardDays": "noch tage",
+    "footer": {
+        "footerShowing": "Zeigen",
+        "footerOutOf": "aus"
+    },
+    "OfPages": "von"
+}
